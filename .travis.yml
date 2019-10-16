@@ -22,4 +22,5 @@ notifications:
   email: false
 
 script:
-- ./gradlew assemble lint{With,No}GPlay{Debug,Release} test{With,No}GPlay{Debug,Release}UnitTest
+// ./gradlew assemble lint{With,No}GPlay{Debug,Release} test{With,No}GPlay{Debug,Release}UnitTest
+- ./gradlew checkstyle
